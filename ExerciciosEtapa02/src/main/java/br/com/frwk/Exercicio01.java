@@ -28,6 +28,8 @@ public class Exercicio01 {
 
             System.out.println("3 - Mostrar média de comissão dos vendedores");
 
+            System.out.println("4 - Mostrar média de comissão dos vendedores");
+
             System.out.println("0 - Sair");
             opcao = sc.nextInt();
             

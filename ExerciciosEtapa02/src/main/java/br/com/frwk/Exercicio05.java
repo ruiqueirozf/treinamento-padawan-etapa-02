@@ -26,8 +26,11 @@ public class Exercicio05 {
     public static Scanner sc = new Scanner(System.in);
 
     public static void main(String[] args) {
-        int opcao;
+        int opcao = 10;
+
         do {
+
+
             System.out.println("1 - Adicionar Item a Lista de Compra");
 
             System.out.println("2 - Remover Item a Lista de Compra");
@@ -35,7 +38,7 @@ public class Exercicio05 {
             System.out.println("3 - Consultar Itens na Lista de Compra");
 
             System.out.println("0 - Sair");
-            opcao = sc.nextInt();
+            opcao = sc.nextInt()/0;
 
             switch (opcao){
                 case 1:
